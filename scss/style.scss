@@ -11,7 +11,12 @@ header, footer {
 section {
 	width:80%;
 	padding: 2em 10em;
+	margin:0 auto;
+	text-align:center;
 }
+h1,h2 {
+	color: red;
+	}
 
 nav {
 	width:100%;
@@ -37,9 +42,55 @@ nav {
 
 .glavni {
 	background-image: url("../images/bkg1.jpg");
-	margin:0 auto;
-	text-align:center;
+	height:40vh;
 		h1 {
-			color: red;
+			margin: 5.5em auto 0;
+		}
+}
+
+.services {
+	h1 {
+		border-bottom:1px solid red;
+		margin:0 auto;
+		width: 100%;
+	}
+	p {
+		margin-bottom: 2em;
+	}
+	p.paragraf {
+		display: inline-block;
+		width: 40%;
+		text-align:justify;
+		margin: 1em;
+	}
+	.icone {
+		display: inline-block;
+		border:1px solid skyblue;
+		width: 30%;
+		padding:1em;
+		margin: 0.5em;
+		h2 {
+			text-transform: uppercase;
+		}
+		img {
+			border-radius:100px;
+		}
+	}
+}
+
+.contact {
+		h1 {
+		border-bottom:1px solid red;
+		margin:0 auto;
+		width: 100%;
+		}
+		form {
+			display:inline-block;
+			text-align: left;
+			width: 40%;
+				label {
+					display: block;
+					color: red;
+				}
 		}
 }
