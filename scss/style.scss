@@ -89,8 +89,23 @@ nav {
 			text-align: left;
 			width: 40%;
 				label {
-					display: block;
+					display: inline-block;
+					width: 140px;
 					color: red;
 				}
+				input {
+					border: 1px solid red;						
+				}
+				button {
+					float: right;
+					background: red;
+					color: white;
+				}
+
 		}
+}
+footer{
+	background:skyblue;
+	padding: 0.5em 0;
+	text-align:center;
 }
